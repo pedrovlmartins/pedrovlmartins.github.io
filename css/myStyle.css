@@ -26,14 +26,14 @@ a:hover, a:active, a:focus {
 
 .btn-dark {
     color: white;
-    background-color: rgb(140, 45, 25);
-    border-color: rgb(140, 45, 25);
+    background-color: black;
+    border-color: black;
 }
 
 .btn-dark:hover {
     color: white;
-    background-color: black;
-    border-color: black;
+    background-color: rgb(140, 45, 25);
+    border-color: rgb(140, 45, 25);
 }
 
 .popover-body, .popover-header {
@@ -146,7 +146,7 @@ a:hover, a:active, a:focus {
      font-weight: bold;
      text-align: justify;
      text-justify: inter-word;
-     color: black;
+     color: rgb(140, 45, 25);
      font-size: 16px;
      padding: 16px 32px;
 }
