@@ -1,7 +1,42 @@
+a {
+	color: rgb(140, 45, 25);
+	font-weight: bold;
+}
+
+a:hover, a:active, a:focus {
+	color: black;
+	font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+	color: black;
+	font-weight: bold;
+}
+
+.btn-dark {
+    color: white;
+    background-color: rgb(140, 45, 25);
+    border-color: rgb(140, 45, 25);
+}
+
+.btn-dark:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.popover-body, .popover-header {
+    color: black;
+	font-family: 'Aldrich';
+	font-weight: bold;
+    font-size: 15px;
+	text-align: center;
+}
+
 #nameID {
      width: 100%;
-     color: #333333;
-     height: 150px;
+     color: black;
+     height: 120px;
      margin: 0 auto;
      overflow: hidden;
      padding: 10px 0;
@@ -12,9 +47,15 @@
      font-size: 22px;
      float: none;
 }
+#mainContainer {
+	-webkit-box-shadow: 13px 13px 28px -10px rgba(140,45,25,0.77);
+	-moz-box-shadow: 13px 13px 28px -10px rgba(140,45,25,0.77);
+	box-shadow: 13px 13px 28px -10px rgba(140,45,25,0.77);
+}
  #aboutTextID {
      text-align: justify;
      text-justify: inter-word;
+	 font-size: 15.9px;
 }
  html {
      position: relative;
@@ -24,6 +65,26 @@
      margin-bottom: 60px;
     /* Margin bottom by footer height */
 }
+
+.nav-item {
+	font-family: 'Aldrich';
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+.iconCompetences {
+	text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.keltest {
+	margin-bottom: 1em;
+}
+
  .footer {
 	 display: inline;
      position: absolute;
@@ -52,6 +113,7 @@
      height: auto;
      transition: .5s ease;
      backface-visibility: hidden;
+	 border: 1px solid black;
 }
  .middle {
      transition: .5s ease;
@@ -73,10 +135,11 @@
      font-weight: bold;
      text-align: justify;
      text-justify: inter-word;
-     color: green;
+     color: black;
      font-size: 16px;
      padding: 16px 32px;
 }
+
  .selectedImage .caption {
      text-align: center;
      vertical-align: middle;

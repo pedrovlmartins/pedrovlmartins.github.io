@@ -18,6 +18,7 @@
         $(function() {
             $("#aboutTabContent").load("html/about.html");
             $("#projectsTabContent").load("html/projects.html");
+			$("#competencesTabContent").load("html/competences.html");
 			$('[data-toggle="popover"]').popover();  
         });		
     </script>
@@ -28,7 +29,7 @@
     <div id="nameID" class="container">
         <h1 id="myName" class="text-center">Pedro Vieira Lamares Martins</h1>
     </div>
-    <div class="container">
+    <div id="mainContainer" class="container">
         <ul class="nav nav-tabs nav-justified" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" data-toggle="tab" href="#aboutTab">About</a>
@@ -37,7 +38,7 @@
                 <a class="nav-link" data-toggle="tab" href="#projectsTab">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#menu2">Competences</a>
+                <a class="nav-link" data-toggle="tab" href="#competencesTab">Competences</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" data-toggle="tab" href="#menu3">Contact</a>
@@ -56,10 +57,9 @@
                 <div id="projectsTabContent"></div>
             </div>
 
-            <div id="menu2" class="container tab-pane fade border border-top-0">
+            <div id="competencesTab" class="container tab-pane fade border border-top-0">
                 <br>
-                <h3>Menu 2</h3>
-                <p>Sed ut Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                <div id="competencesTabContent"></div>
             </div>
             <div id="menu3" class="container tab-pane fade border border-top-0">
                 <br>
@@ -70,8 +70,9 @@
     </div>
 
     <footer class="footer">
-		<a href="#" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="+351 913291154"><i class="iconsFooter fa fa-phone-square"></i></a>
-		<a href="#" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="pedrovlmartins@gmail.com"><i class="iconsFooter fa fa-envelope"></i></a>
+		<a href="#" title="Phone number" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="(+351) 913291154"><i class="iconsFooter fa fa-phone-square"></i></a>
+		<a href="#" title="Skype" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="+351 913291154"><i class="iconsFooter fa fa-skype"></i></a>
+		<a href="#" title="E-mail adress" data-toggle="popover" data-placement="top" data-trigger="focus" data-content="pedrovlmartins@gmail.com"><i class="iconsFooter fa fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/pedrovlmartins/" class="iconsFooter" title="Linkedin"><i class="fa fa-linkedin-square"></i></a>
         <a href="https://github.com/pedrovlmartins" class="iconsFooter" title="GitHub"><i class="fa fa-github-square"></i></a>
         <a href="https://www.facebook.com/pedrovlmartins" class="iconsFooter" title="Facebook"><i class="fa fa-facebook-official"></i></a>
