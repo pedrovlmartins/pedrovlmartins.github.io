@@ -1,87 +1,73 @@
 @media screen and (max-width:700px) {
-    .iconCompetences {
-        display: none;
-    }	
-	
-	.futureArrow {
-		text-align: center;
-	}
-	
-	.futureText {
-		text-align: justify;
-		text-justify: inter-word;	
-	}	
+     .iconCompetences {
+         display: none;
+    }
+     .futureArrow {
+         text-align: center;
+    }
+     .futureText {
+         text-align: justify;
+         text-justify: inter-word;
+    }
 }
-
-@media screen and (min-width:701px) {
-	.futureArrow {
-		width: 50%;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	.futureText {
-		width: 50%;
-		margin: 0 auto;
-		text-align: justify;
-		text-justify: inter-word;	
-	}	
+ @media screen and (min-width:701px) {
+     .futureArrow {
+         width: 50%;
+         margin: 0 auto;
+         text-align: center;
+    }
+     .futureText {
+         width: 50%;
+         margin: 0 auto;
+         text-align: justify;
+         text-justify: inter-word;
+    }
 }
-
-a {
-	color: black;
-	font-weight: bold;
+ a {
+     color: black;
+     font-weight: bold;
 }
-
-h6 {
-	color: rgb(140, 45, 25);
-	text-align: center;
-	font-weight: bold;
-	font-family: 'Aldrich';
+ h6 {
+     color: rgb(140, 45, 25);
+     text-align: center;
+     font-weight: bold;
+     font-family: 'Aldrich';
 }
-
-#arrow {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+ #arrow {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 40%;
 }
-
-.rightAlign {
-	text-align: right;
+ .rightAlign {
+     text-align: right;
 }
-
-a:hover, a:active, a:focus {
-	color: rgb(140, 45, 25);
-	font-weight: bold;
+ a:hover, a:active, a:focus {
+     color: rgb(140, 45, 25);
+     font-weight: bold;
 }
-
-.nav-tabs .nav-link.active {
-	color: rgb(140, 45, 25);
-	font-weight: bold;
+ .nav-tabs .nav-link.active {
+     color: rgb(140, 45, 25);
+     font-weight: bold;
 }
-
-.btn-dark {
-    color: white;
-    background-color: black;
-    border-color: black;
+ .btn-dark {
+     color: white;
+     background-color: black;
+     border-color: black;
 }
-
-.btn-dark:hover {
-    color: white;
-    background-color: rgb(140, 45, 25);
-    border-color: rgb(140, 45, 25);
+ .btn-dark:hover {
+     color: white;
+     background-color: rgb(140, 45, 25);
+     border-color: rgb(140, 45, 25);
 }
-
-.popover-body, .popover-header {
-    color: black;
-	font-family: 'Aldrich';
-	font-weight: bold;
-    font-size: 15px;
-	text-align: center;
+ .popover-body, .popover-header {
+     color: black;
+     font-family: 'Aldrich';
+     font-weight: bold;
+     font-size: 15px;
+     text-align: center;
 }
-
-#nameID {
+ #nameID {
      width: 100%;
      color: black;
      height: 120px;
@@ -95,15 +81,15 @@ a:hover, a:active, a:focus {
      font-size: 22px;
      float: none;
 }
-#mainContainer {
-	-webkit-box-shadow: 13px 13px 28px -10px rgba(140,45,25,0.77);
-	-moz-box-shadow: 13px 13px 28px -10px rgba(140,45,25,0.77);
-	box-shadow: 13px 13px 28px -10px rgba(140,45,25,0.77);
+ #mainContainer {
+     -webkit-box-shadow: 13px 13px 28px -10px rgba(140,45,25,0.77);
+     -moz-box-shadow: 13px 13px 28px -10px rgba(140,45,25,0.77);
+     box-shadow: 13px 13px 28px -10px rgba(140,45,25,0.77);
 }
  #aboutTextID {
      text-align: justify;
      text-justify: inter-word;
-	 font-size: 15.9px;
+     font-size: 15.9px;
 }
  html {
      position: relative;
@@ -112,29 +98,25 @@ a:hover, a:active, a:focus {
  body {
      margin-bottom: 75px;
 }
-
-.nav-item {
-	font-family: 'Aldrich';
-	font-weight: bold;
-	letter-spacing: 4px;
+ .nav-item {
+     font-family: 'Aldrich';
+     font-weight: bold;
+     letter-spacing: 4px;
 }
-
-.iconCompetences {
-  color: black;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+ .iconCompetences {
+     color: black;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     top: 50%;
+     transform: translateY(-50%);
 }
-
-.keltest {
-	margin-bottom: 1em;
+ .keltest {
+     margin-bottom: 1em;
 }
-
-.footer {
-	 display: inline;
+ .footer {
+     display: inline;
      position: absolute;
      bottom: 0;
      width: 100%;
@@ -146,13 +128,9 @@ a:hover, a:active, a:focus {
      vertical-align: middle;
      background-color: white;
 }
-.iconsFooter {
-	font-size: 45px;
-	letter-spacing: 10px;
-}
-.nonIconsFooter {
-	
-	margin-right: 10px;
+ .iconsFooter {
+     font-size: 45px;
+     letter-spacing: 10px;
 }
  .image {
      opacity: 1;
@@ -161,7 +139,7 @@ a:hover, a:active, a:focus {
      height: auto;
      transition: .5s ease;
      backface-visibility: hidden;
-	 border: 1px solid black;
+     border: 1px solid black;
 }
  .middle {
      transition: .5s ease;
@@ -187,7 +165,6 @@ a:hover, a:active, a:focus {
      font-size: 16px;
      padding: 16px 32px;
 }
-
  .selectedImage .caption {
      text-align: center;
      vertical-align: middle;
