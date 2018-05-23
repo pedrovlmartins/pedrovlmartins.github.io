@@ -10,7 +10,7 @@
          text-justify: inter-word;
     }
 }
- @media screen and (min-width:701px) {
+@media screen and (min-width:701px) {
      .futureArrow {
          width: 50%;
          margin: 0 auto;
