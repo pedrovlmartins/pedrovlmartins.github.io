@@ -27,6 +27,18 @@
      color: black;
      font-weight: bold;
 }
+
+.quote {
+	font-style: italic;
+	text-align: center;
+	line-height: 6px;
+}
+
+.notquote {
+	text-align: center;
+	line-height: 120px;	
+}
+
  h6 {
      color: rgb(140, 45, 25);
      text-align: center;
